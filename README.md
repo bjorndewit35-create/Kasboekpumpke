@@ -9,9 +9,17 @@ met een sluitende administratie voor de boekhouder en de Belastingdienst.
 De app is gebouwd in [Lovable](https://lovable.dev) en draait daar, met een
 Supabase-database (PostgreSQL) erachter.
 
-- **Project:** `Kasboek` (`914dded5-b6ef-4744-a9b7-d2cc108d61f4`)
+- **App:** https://kasboek-pumpke.lovable.app ← deze op de tablet zetten
 - **Editor:** https://lovable.dev/projects/914dded5-b6ef-4744-a9b7-d2cc108d61f4
-- **App:** https://id-preview--914dded5-b6ef-4744-a9b7-d2cc108d61f4.lovable.app
+- **Project:** `Kasboek` (`914dded5-b6ef-4744-a9b7-d2cc108d61f4`)
+
+De app is een PWA: open de link op de tablet of telefoon en kies "Toevoegen aan
+beginscherm", dan staat hij als los icoon tussen de andere apps.
+
+> **Let op:** Lovable Cloud pauzeert een database die lang niet gebruikt wordt, en bij
+> langdurige stilstand kan die worden opgeschoond. Gebruik de app dus regelmatig, en
+> exporteer elke maand via **Boekhouding** de Excel en de bonnetjes-ZIP — dat is meteen
+> je back-up.
 
 Deze repository bevat de documentatie: de rekenregels, het databaseschema en de
 handleiding voor in de zaak. De applicatiecode staat in het Lovable-project.
