@@ -91,6 +91,24 @@ kluissaldo        = vorig saldo + € 310,00
 de volle la; de kluisstorting gaat daar daarna vanaf. Andersom rekenen levert een
 kasverschil op ter grootte van de kluisstorting, terwijl er in werkelijkheid niets mist.
 
+## Een kasverschil is zelf ook een boeking
+
+Blijkt er bij het tellen € 3 te weinig in de la te zitten, dan is dat geen getal dat alleen
+op de dagstaat komt te staan — er wordt een boeking van gemaakt: een kasopname van € 3 met
+de notitie "Kasverschil bij dagafsluiting".
+
+Dat moet, anders lopen twee dingen uit elkaar. Zonder die boeking zeggen de transacties dat
+er € 563 in de la hoort te liggen, terwijl de volgende dag opent met € 560. Dat gat staat
+dan nergens verklaard. Mét die boeking geldt altijd:
+
+```
+beginsaldo + alle boekingen van de dag = geteld bedrag
+geteld bedrag − naar kluis            = beginsaldo van morgen
+```
+
+Het grootboek en de dagstaat vertellen zo hetzelfde verhaal, en elk verschil is
+terug te vinden als een regel met een reden erbij.
+
 ## De horeca-dag
 
 De boekhouddag loopt niet van middernacht tot middernacht, maar begint op een instelbaar
